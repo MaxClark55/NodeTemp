@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const PORT = 8080;
+const PORT = process.evn.PORT || 8080;
 
-app.get("/", function(reg, res){
-    res.send("Hello World")
+app.get("/", function(req, res){
+    res.end("Hello World")
 });
 
 app.listen(PORT, function(){

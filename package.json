@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/MaxClark55/NodeTemp/issues"
   },
-  "homepage": "https://github.com/MaxClark55/NodeTemp#readme"
+  "homepage": "https://github.com/MaxClark55/NodeTemp#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
